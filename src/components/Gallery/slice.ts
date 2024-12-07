@@ -16,7 +16,7 @@ export const gallerySlice = createSlice({
     setFeatured: (state, action) => {
       state.featured = action.payload;
     },
-    resetGallery: () => {
+    resetGallery: (state) => {
       state = initialState;
     }
   }
