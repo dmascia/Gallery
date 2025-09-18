@@ -61,17 +61,29 @@ Use cases include:
 
 ## Architecture & Directory Structure
 /
+
 ├── public/                ─ Static assets (images, sprites, etc.)
+
 ├── src/                   ─ Application source code
+
 │   ├── pages/             ─ Next.js pages / routes
+
 │   ├── components/        ─ Reusable UI components
+
 │   ├── styles/            ─ Tailwind / global CSS
+
 │   └── utils/             ─ Utility functions, helpers
+
 ├── .devcontainer.json     ─ Dev container config (optional)
+
 ├── tailwind.config.ts     ─ Tailwind configuration
+
 ├── next.config.ts         ─ Next.js configuration
+
 ├── tsconfig.json          ─ TypeScript config
+
 ├── package.json           ─ Dependencies & scripts
+
 └── README.md              ─ This document
 
 
